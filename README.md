@@ -15,9 +15,9 @@ But in theory there is no difference between theory and practice; in practice th
 My Makefile is a mess.  
 
 I get things going with:  
-`make imgui`  
-`make particle.o`  
-`make`  
+`git submodule init`
+`git submodule update`
+`make fluidsim.o particle.o default`
 `./out`  
 
 ## Dependencies
